@@ -55,3 +55,4 @@ int main()
     cout<<ans;
     return 0;
 }
+// ALSO CHECK THE numberofways.cpp FOR AN ALTERNATE SOLUTION
