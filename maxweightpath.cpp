@@ -1,5 +1,6 @@
 // C++ program to find the path having the
 // maximum weight in matrix
+// moves allowed from (i,j): (i+1, j),(,(i+1, j+1)
 #include<bits/stdc++.h>
 using namespace std;
 const int MAX = 1000;
