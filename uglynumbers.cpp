@@ -1,6 +1,9 @@
-// ugly numbers (numbers with 2,3 or 5 as prime factors
+/* Ugly numbers are numbers whose only prime factors are 2, 3 or 5.
+The sequence 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, … shows the first 11 ugly numbers. By convention, 1 is included. */
 
-// C++ program to find n'th Ugly number
+
+// program to find n'th Ugly number
+
 # include<bits/stdc++.h>
 using namespace std;
 
@@ -46,6 +49,7 @@ int main()
     int n ;
     cout<<"enter a number"<<endl;
     cin>>n;
+    cout<<"finding the "<<n<<"th ugly number ..."<<endl;
     cout << getNthUglyNo(n);
     return 0;
 }

@@ -1,5 +1,15 @@
-// A Dynamic Programming based C++ program to find minimum
-// number operations to convert str1 to str2
+/*
+Given two strings str1 and str2 and below operations that can performed on str1.
+Find minimum number of edits (operations) required to convert ‘str1’ into ‘str2’.
+
+Insert
+Remove
+Replace
+
+All the above operations have the same cost
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
